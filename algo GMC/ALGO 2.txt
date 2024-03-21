@@ -1,0 +1,13 @@
+Définir ensemble1, ensemble2, sum à 0
+Lire ensemble1, ensemble2
+Pour chaque élément dans ensemble1 faire
+    Si élément n'est pas dans ensemble2 alors
+        sum := sum + élément
+    Fin Si
+Fin Pour
+Pour chaque élément dans ensemble2 faire
+    Si élément n'est pas dans ensemble1 alors
+        sum := sum + élément
+    Fin Si
+Fin Pour
+Afficher sum

@@ -1,0 +1,12 @@
+Définir phrase, compteurMots, compteurVoyelles à 0
+Lire phrase
+Pour chaque caractère dans phrase faire
+    Si caractère est une voyelle alors
+        compteurVoyelles := compteurVoyelles + 1
+    Fin Si
+    Si caractère est un espace alors
+        compteurMots := compteurMots + 1
+    Fin Si
+Fin Pour
+compteurMots := compteurMots + 1  // Ajouter 1 pour le dernier mot qui se termine par un point
+Afficher compteurMots, compteurVoyelles
