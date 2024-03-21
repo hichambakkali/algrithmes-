@@ -1,0 +1,7 @@
+def dot_product(v1, v2):
+    assert len(v1) == len(v2), "Les vecteurs doivent avoir la même longueur"
+    ps = sum(i*j for i, j in zip(v1, v2))
+    return ps
+
+def are_orthogonal(v1, v2):
+    return dot_product(v1, v2) == 0
